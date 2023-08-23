@@ -1,0 +1,23 @@
+.second_section {
+    width: 100%;
+    min-height: 100vh;
+    /* overflow: hidden; */
+}
+
+.text {
+    color: #fff;
+}
+
+.bg_section_two {
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    text-align: right;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.content_section_two {
+    position: relative;
+    z-index: 3;
+}

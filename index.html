@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" href="./global.styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M.T.H.O</title>
+    <link rel="stylesheet" href="./TOP.css">
+    <link rel="stylesheet" href="./section_one.css">
+    <link rel="stylesheet" href="./section_two.css">
+</head>
+
+<body onscroll="moveAlittle()" style="padding: 0px;margin: 0px;background-color: #272828;">
+    <div class="menu">
+        <div class="menu_left">
+            <p class="menu_text color_purple">M.T.H.O</p>
+        </div>
+        <div class="menu_right">
+            <svg onclick="displayMenu()" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2 open" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#7F4DC7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M4 6l16 0" />
+                <path d="M4 12l16 0" />
+                <path d="M4 18l16 0" />
+              </svg>
+
+            <svg onclick="displayMenu()" style="display: none;" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-square-x close" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#7F4DC7" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M3 3m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
+                <path d="M10 10l4 4m0 -4l-4 4" />
+              </svg>
+        </div>
+    </div>
+    <div class="popup_menu">
+        <a class="color_purple" href="">HOME</a>
+        <a class="color_purple" href="">ABOUT ME</a>
+        <a class="color_purple" href="">My SKILLS</a>
+        <a class="color_purple" href="">CONTACT ME</a>
+    </div>
+    <!-- first section -->
+    <div class="section_one">
+        <div class="bg_section_one">
+            <img src="./src/section_one/Clay_Purple0001.png" alt="" class="clay">
+        </div>
+        <div class="content_section_one">
+            <p class="title color_purple">
+                <span class="fast init">F</span>
+                <span class="slow init">R</span>
+                <span class="fast init">O</span>
+                <span class="slow init">N</span>
+                <span class="fast init">T</span>
+                <span class="slow init">E</span>
+                <span class="fast init">N</span>
+                <span class="slow init">D</span>
+                <!-- FRONT END -->
+            </p>
+            <p class="subtitle color_black">DEVELOPER</p>
+        </div>
+    </div>
+    <!-- first section -->
+    <!-- Second section -->
+    <div class="second_section">
+        <div class="bg_section_two">
+            <img src="./src/section_two/Ellipse 1.png" alt="" class="">
+        </div>
+        <div class="content_section_two">
+            <p class="title color_purple">ABOUT
+            </p>
+            <p class="subtitle color_black">ME</p>
+            <p class="p_text" style="color: #fff;">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum <br> Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem <br> Lorem ipsum Lorem ipsum Lorem ipsum
+            </p>
+        </div>
+    </div>
+    <!-- Second section -->
+</body>
+<script src="./anime-master/lib/anime.min.js"></script>
+<script src="./scripts/displayMenu.js"></script>
+<script src="./animations/simple_animations/onscroll.js"></script>
+
+</html>

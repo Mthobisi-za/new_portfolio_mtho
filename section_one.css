@@ -1,0 +1,48 @@
+.section_one {
+    width: 100%;
+    min-height: 100%;
+}
+
+.bg_section_one {
+    position: absolute;
+    text-align: right;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: right;
+    max-width: 100%;
+    overflow-y: hidden;
+    max-height: 90vh;
+    z-index: 0;
+}
+
+.clay {
+    width: 90%;
+    margin-right: -500px;
+    transition: ease-in-out;
+}
+
+.content_section_one {
+    display: grid;
+    width: 70%;
+    max-height: 100vh;
+    display: grid;
+    align-items: center;
+    height: 90vh;
+    position: relative;
+    z-index: 2;
+    overflow-y: hidden;
+    overflow: hidden;
+}
+
+
+/* responsive */
+
+@media (max-width:1727px) {
+    .content_section_one {
+        width: 100%;
+    }
+}
+
+
+/* responsive */

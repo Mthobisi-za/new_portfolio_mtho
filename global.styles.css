@@ -1,0 +1,56 @@
+.container {
+    min-height: 100vh;
+}
+
+.bg_black {
+    background-color: #272828;
+}
+
+.color_purple {
+    color: #8743B4;
+}
+
+.color_black {
+    color: #707070;
+}
+
+.title {
+    font-family: 'Impact', sans-serif;
+    font-size: 250px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding-left: 50px;
+    display: flex;
+    /* line-height: 0%; */
+    /* background-color: red; */
+}
+
+.subtitle {
+    font-family: 'Krub', sans-serif;
+    font-size: 100px;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 50px;
+    margin-top: -300px;
+    /* line-height: 0%; */
+    /* background-color: green; */
+}
+
+.p_text {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    padding-left: 50px;
+}
+
+@media (max-width:1727px) {
+    .title {
+        font-size: 150px;
+        word-wrap: break-word
+    }
+    .subtitle {
+        font-size: 50px;
+        word-wrap: break-word
+    }
+}
